@@ -1,5 +1,13 @@
 Additional resources need to be downloaded to fully make use of the program and without them, there is potential for crashes or lack of functionality.
 
+Be sure to install these libraries within your python console through whichever OS method to utilise the application:
+● opencv-python
+● python3-tk
+● Pillow
+● numpy
+● imantics
+● pycocotools
+
 For use of automatic segmentation:
 https://drive.google.com/drive/folders/1TLiJHxHylT_lI2iP7FKyW05miAMsS8-u
 This link holds two files which should be placed in the same directory as the python code, this is the pretrained model used within the project's code
@@ -10,5 +18,5 @@ Adjusting line colour only affects the user's vision and this will not be saved 
 Saving of the segmentation mask is currently not working as the format provided by the ML model function does not synchronise with the mask save function.
 Case is not considered when typing labels for annotations, any uppercase but identically spelt labels will be associated as the same label when saving.
 
-Tester Source image found at:
+tester image.jpg sourced from:
 https://www.pexels.com/photo/photo-of-living-room-1457842/
